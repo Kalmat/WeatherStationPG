@@ -1,0 +1,4 @@
+pygame
+pygame-menu
+pytz
+pygetwindow

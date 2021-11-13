@@ -1,0 +1,10 @@
+New
+New Waxing
+Waxing Crescent
+First Quarter
+Waxing Gibbous
+Full
+Waning Gibbous
+Last Quarter
+Waning Crescent
+New Waning

@@ -1,0 +1,195 @@
+{
+    "General": {
+        "Resolution": [
+            1280,
+            800
+        ],
+        "Available_Languages": {
+            "Default": "English",
+            "Alternative": "Español"
+        },
+        "Language": "Default",
+        "Available_Units": [
+            "Metric",
+            "Imperial"
+        ],
+        "Units": "Metric"
+    },
+    "Appearance": {
+        "Comment": "If Clock Mode activated, only time and date will be shown. No internet connection is required",
+        "Clock_mode": "False",
+        "Show_background": "True",
+        "Available_Background_modes": [
+            "Weather",
+            "Fixed"
+        ],
+        "Background_mode": "Weather",
+        "Available_Icon_set": [
+            "Realistic",
+            "Flat Grey",
+            "Flat Full Color",
+            "Sticky Full Color"
+        ],
+        "Icon_set": "Realistic",
+        "Available_Weather_source": [
+            "OpenWeatherMap"
+        ],
+        "Weather_source": "OpenWeatherMap",
+        "Available_Moon_position": [
+            "No Moon",
+            "On Current",
+            "On Header",
+            "Both"
+        ],
+        "Moon_position": "Both",
+        "Show_Constellations": "True",
+        "Available_News_mode": [
+            "Period",
+            "Always ON",
+            "Always OFF"
+        ],
+        "News_mode": "Period"
+    },
+    "Colors": {
+        "Comment1": "Insert color value as per pygame.Color(color). Visit:",
+        "Comment2": "https://mike632t.wordpress.com/2018/02/10/displaying-a-list-of-the-named-colours-available-in-pygame/",
+        "Color_Background": "black",
+        "Color_News_background": "black",
+        "With_Background": {
+            "Color_Clock": "white",
+            "Color_Header": "white",
+            "Color_News": "white",
+            "Color_Weather": "white"
+        },
+        "Without_Background": {
+            "Color_Clock": "turquoise3",
+            "Color_Header": "turquoise3",
+            "Color_News": "orange",
+            "Color_Weather": "turquoise3"
+        },
+        "Color_highlight": "orange",
+        "Color_dark": "gray40",
+        "Color_dim": "black",
+        "Color_High_pop": "red",
+        "Color_Med_pop": "orange",
+        "Color_High_temp": "red",
+        "Color_Low_temp": "blue",
+        "Color_Title": "orange"
+    },
+    "Background": {
+        "Comment": "Dim background and highlight text to improve visibility when background mode is set to Weather",
+        "Available_Outline_mode": [
+            "None",
+            "Outline",
+            "Outrect",
+            "Shadow"
+        ],
+        "With_Background": {
+            "Dim_background": "True",
+            "Dim_factor": 96,
+            "Outline_mode": "Outline",
+            "Dim_forecasts": "False"
+        },
+        "Without_Background": {
+            "Dim_background": "False",
+            "Dim_factor": 0,
+            "Outline_mode": "None",
+            "Dim_forecasts": "False"
+        }
+    },
+    "Weather": {
+        "Locations": [
+            [
+                "Madrid, España",
+                "lat=40.4167047&lon=-3.7035825"
+            ],
+            [
+                "New York, United States",
+                "lat=40.7127281&lon=-74.0060152"
+            ],
+            [
+                "Tokyo, Japan",
+                "lat=35.6828387&lon=139.7594549"
+            ]
+        ],
+        "Use_current": "True"
+    },
+    "News": {
+        "Alternate_News_source": "True",
+        "Show_News_pics": "False",
+        "Separator": "   |   ",
+        "FPS": 25,
+        "Comment": "Lower FPS will consume less CPU / Higher FPS will speed up the ticker"
+    },
+    "World_Clocks": {
+        "Timezones": [
+            [
+                "America/Los_Angeles",
+                "Los Angeles"
+            ],
+            [
+                "America/New_York",
+                "New York"
+            ],
+            [
+                "Europe/London",
+                "London"
+            ],
+            [
+                "Asia/Katmandu",
+                "Katmandu"
+            ],
+            [
+                "Asia/Tokyo",
+                "Tokyo"
+            ],
+            [
+                "Australia/Sydney",
+                "Sydney"
+            ]
+        ]
+    },
+    "Texts": {
+        "Comment1": "Translate texts to your preferred language",
+        "Comment2": "To translate weather conditions, set Language Code as per https://openweathermap.org/api/one-call-api",
+        "Comment3": "To translate dates, be sure to set proper locale on your Operating System (or try changing this one)",
+        "Default": {
+            "Code": "en",
+            "Locale": "en_GB.utf-8",
+            "100": "Today",
+            "101": "Windchill",
+            "102": "Windspeed",
+            "103": "Direction",
+            "104": "Barometer",
+            "105": "Humidity",
+            "106": "Last Updated",
+            "107": "Visibility",
+            "110": "Low",
+            "111": "Medium",
+            "112": "High",
+            "113": "Very High",
+            "114": "Extreme",
+            "120": "Today, UV Index",
+            "121": "Today, High Wind"
+        },
+        "Alternative": {
+            "Code": "es",
+            "Locale": "es_ES.utf-8",
+            "100": "Hoy",
+            "101": "Sensación térmica",
+            "102": "Viento",
+            "103": "Dirección",
+            "104": "Barómetro",
+            "105": "Humedad",
+            "106": "Última Actualización",
+            "107": "Visibilidad",
+            "110": "Bajo",
+            "111": "Medio",
+            "112": "Alto",
+            "113": "Muy Alto",
+            "114": "Extremo",
+            "120": "Hoy, Índice UV",
+            "121": "Hoy, Viento Alto"
+        }
+    }
+}
